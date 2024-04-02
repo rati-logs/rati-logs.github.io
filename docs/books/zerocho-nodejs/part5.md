@@ -574,4 +574,4 @@ app.use((err, req, res, next) => {
 ```
 
 그러면 에러가 발생했을때 아래와 같은 페이지가 보이게 된다!
-![nunjucks_error](https://github.com/sscoderati/cheshier-docs/assets/69716992/5522569e-4228-4ec1-8f3f-c0459b1df627)
+![nunjucks_error](https://blogdocsimages.s3.ap-northeast-2.amazonaws.com/20240402132900_50L1vs)

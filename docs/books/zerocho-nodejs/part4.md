@@ -135,12 +135,12 @@ module.exports = () => {
 ```
 
 그리고 npm에 로그인 해야한다. 계정이 없으면 가입해주자.
-![npm_로그인](https://github.com/sscoderati/cheshier-docs/assets/69716992/bff8ced6-6c34-4c5b-8b91-e47bfcc103c2)
+![npm_login](https://blogdocsimages.s3.ap-northeast-2.amazonaws.com/20240402132647_sMIPLL)
 그리고 `npm publish` 커맨드를 입력해주면...
-![npm_배포](https://github.com/sscoderati/cheshier-docs/assets/69716992/e9eea4b4-f1f0-4511-a0c4-daad21e1b55b)
+![npm_deployment](https://blogdocsimages.s3.ap-northeast-2.amazonaws.com/20240402132711_C3A6qi)
 이렇게 배포가 잘 되고, `npm search`, `npm info` 등의 커맨드로 검색이 가능해진다.
 물론 npm 웹 사이트에서도 검색이 된다.
-![npm_search_info](https://github.com/sscoderati/cheshier-docs/assets/69716992/b961a250-c11c-4b88-8bd4-6cc8bfb58a19)
-![npm_website_search](https://github.com/sscoderati/cheshier-docs/assets/69716992/51bfbb85-9c15-415f-a6b6-15c59f85802c)
+![npm_search_info](https://blogdocsimages.s3.ap-northeast-2.amazonaws.com/20240402132739_UOtAlZ)
+![npm_website_search](https://blogdocsimages.s3.ap-northeast-2.amazonaws.com/20240402132821_8GORWE)
 
 하지만 npm에 이렇게 무분별하게 무의미한 패키지를 올리는 것은 지양해야하므로, 다시 배포를 중단해보자. `npm unpublish --force` 명령어를 사용하면 된다.

@@ -402,7 +402,7 @@ console.timeEnd("전체시간");
 
 이 예제를 실행한 결과는 다음과 같다.
 
-![예제 실행 결과](https://drive.google.com/uc?export=view&id=14KkURPNjMhHEVtafwmNcn6niqseX7cSh)
+![예제 실행 결과](https://blogdocsimages.s3.ap-northeast-2.amazonaws.com/20240402131559_Es0t6h)
 
 #### 3.4.3 타이머
 
@@ -1134,7 +1134,7 @@ readStream.on("end", () => {
 });
 ```
 
-![](https://github.com/sscoderati/cheshier-blog/assets/69716992/a93723e4-6644-41f0-b066-ce5b3e7c8304)
+![buffer_stream_result](https://blogdocsimages.s3.ap-northeast-2.amazonaws.com/20240402132444_1NFdVS)
 위 예제의 결과를 살펴보면 버퍼는 거의 대용량 파일의 크기만큼의 메모리를 사용하는 것을 확인할 수 있고, 스트림은 100MB도 안 쓰는 것을 확인할 수 있다.
 
 ### 3.6.3 기타 fs 메서드 알아보기
@@ -1200,7 +1200,7 @@ crypto.pbkdf2(pass, salt, 1000000, 128, "sha512", () => {
 
 이 예제를 여러번 실행하면 아래와 같이 실행 순서와 시간이 매번 달라지는 것을 확인할 수 있다. 그리고 4개가 주루룩 찍히고 나머지 4개가 또 주루룩 찍히는 것도 확인할 수 있다.
 
-![](https://github.com/sscoderati/cheshier-blog/assets/69716992/581da458-c063-4061-a764-ae31b0a8cdf2)
+![thread_pool_result](https://blogdocsimages.s3.ap-northeast-2.amazonaws.com/20240402132531_VdxcFh)
 
 이런 결과가 나오는 이유는 앞서 서술했듯 스레드 풀의 개수가 노드에서 기본으로 설정한 4개이기 때문에 그렇다.
 이 스레드 풀은 직접 조작할 수는 없어도, 가동할 스레드 풀의 개수를 조작할 수는 있다.
