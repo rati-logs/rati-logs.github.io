@@ -72,7 +72,7 @@ const config: Config = {
           items: [
             {
               label: 'Logs',
-              to: '/logs/intro',
+              to: '/docs/intro',
             },
           ],
         },
